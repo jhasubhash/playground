@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Playground</title>
+    <title>Unity WebGL Player | playground</title>
   </head>
-  <body style="text-align: center; background: #000000;">
-    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #000000"></canvas>
+  <body style="text-align: center; background: #000000; display: flex;
+  margin-top: 10em;
+  height: 100vh;
+  justify-content: center;">
+    <canvas id="unity-canvas" width=900 height=700 style="width: 900px; height: 700px; background: #000000"></canvas>
     <script src="Build/web.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
